@@ -1,6 +1,8 @@
 // CHALLENGE: uncomment the code below and see the car stats rendered
 import React from "react";
 import ReactDOM from "react-dom";
+import Cars from "./practice";
+import Animals from "./data";
 
 ReactDOM.render(
   <table>
