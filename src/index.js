@@ -15,6 +15,11 @@ console.log(cat);
 const { name: catName, sound: catSound } = cat;
 
 console.log(catSound);
+
+// Adding a default value
+
+const { name = "Fluffy", sound = "Purr" } = cat;
+
 // ReactDOM.render(
 //   <table>
 //     <tr>
