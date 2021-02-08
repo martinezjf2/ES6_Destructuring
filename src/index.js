@@ -12,9 +12,9 @@ console.log(cat);
 
 // Destucture an Object
 
-const { name, sound } = cat;
+const { name: catName, sound: catSound } = cat;
 
-console.log(sound);
+console.log(catSound);
 // ReactDOM.render(
 //   <table>
 //     <tr>
