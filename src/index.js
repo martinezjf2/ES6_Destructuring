@@ -7,13 +7,25 @@ console.log(cars);
 
 const [honda, tesla] = cars;
 
+const {
+  speedStats: { topSpeed: hondaTopSpeed }
+} = honda;
+
+const {
+  speedStats: { topSpeed: teslaTopSpeed }
+} = tesla;
+
+const {
+  coloursByPopularity: [hondaTopColour]
+} = honda;
+const {
+  coloursByPopularity: [teslaTopColour]
+} = tesla;
 // const {
 //   model,
 //   coloursByPopularity,
 //   speedStats: { topSpeed, zeroToSixty }
 // } = cars;
-
-console.log(topSpeed);
 
 ReactDOM.render(
   <table>
