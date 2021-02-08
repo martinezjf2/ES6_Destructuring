@@ -10,6 +10,10 @@ const [cat, dog] = Animals;
 
 console.log(cat);
 
+// Destucture an Object
+
+const { name, sound } = cat;
+console.log(sound);
 // ReactDOM.render(
 //   <table>
 //     <tr>
