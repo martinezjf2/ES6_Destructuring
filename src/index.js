@@ -12,13 +12,23 @@ console.log(cat);
 
 // Destucture an Object
 
-const { name: catName, sound: catSound } = cat;
+// const { name: catName, sound: catSound } = cat;
 
-console.log(catSound);
+// console.log(catSound);
 
 // Adding a default value
 
-const { name = "Fluffy", sound = "Purr" } = cat;
+// const { name = "Fluffy", sound = "Purr" } = cat;
+
+// Access Nested Object
+
+const {
+  name,
+  sound,
+  feedingRequirements: { food, water }
+} = cat;
+console.log(feedingRequirements);
+console.log(food);
 
 // ReactDOM.render(
 //   <table>
