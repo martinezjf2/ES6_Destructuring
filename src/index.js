@@ -13,6 +13,7 @@ console.log(cat);
 // Destucture an Object
 
 const { name, sound } = cat;
+
 console.log(sound);
 // ReactDOM.render(
 //   <table>
